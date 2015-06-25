@@ -4,6 +4,10 @@ class Countries
     @country + ":"
     else 
     "Your country is invalid sorry:("
+<<<<<<< HEAD
+end 
+end
+=======
   end 
   @country={
     :China => ["1,370,570,000", "Chinese", "Beijing"]
@@ -29,3 +33,4 @@ class Countries
     
     }
 end 
+>>>>>>> 3feed7e4fcaa7984b6f71c5e872fe2d487506b15
