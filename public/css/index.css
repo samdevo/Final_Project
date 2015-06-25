@@ -3,3 +3,6 @@
       width: 70%;
       margin: auto;
   }
+html, body {
+  background: -webkit-linear-gradient(#FF0000, #FFFF00,#00FF00, #00FFFF, #CC33FF, #000000);
+}
