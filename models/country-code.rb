@@ -64,8 +64,8 @@ class Countries
   end
   
 
-  def find_country(country)
-    if countries.incude?(country)
+  def find_country=(country)
+    if @country.has_key?(country)
     @country + ":"
     else 
     "Your country is invalid sorry:("
