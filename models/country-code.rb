@@ -1,5 +1,5 @@
 class Countries
-<<<<<<< HEAD
+
   def initialize
     @fail
     @country={
@@ -63,13 +63,13 @@ class Countries
    @country[@chosencountry]
   end
   end
-=======
+
   def find_country(country)
     if countries.incude?(country)
     @country + ":"
     else 
     "Your country is invalid sorry:("
->>>>>>> 299e18baab1acf1d6f220cc13c06e16fe5d48f05
+
 
     end 
  end 
