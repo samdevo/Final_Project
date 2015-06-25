@@ -45,19 +45,19 @@ class Countries
  	  :Saudi_Arabia => ["31,521,418"]
     }
   end 
-  def find_country=(country)
-    if @country.has_key?(country)
-      @chosencountry = country
-    else 
-    @fail = "Your country is invalid sorry:("
-    end 
-  end
-  def answer_settr
-    @answer = @country["@chosencountry"]
-  end
-  def answer
-    @answer
-  end
+#   def find_country=(country)
+#     if @country.has_key?(country)
+#       @chosencountry = country
+#     else 
+#     @fail = "Your country is invalid sorry:("
+#     end 
+#   end
+#   def answer_settr
+#     @answer = @country["@chosencountry"]
+#   end
+#   def answer
+#     @answer
+#   end
   def find_country
    @fail
    @country[@chosencountry]
@@ -66,11 +66,9 @@ class Countries
 
   def find_country=(country)
     if @country.has_key?(country)
-    @country + ":"
+      @country[country]
     else 
-    "Your country is invalid sorry:("
-
-
+      "Your country is invalid sorry:("
     end 
  end 
 end 
