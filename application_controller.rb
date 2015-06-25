@@ -7,7 +7,7 @@ class MyApp < Sinatra::Base
     erb :index
   end
   post '/data' do
-    binding.pryqqqq
+    binding.pry
     @thecountry = Countries.new
     @countryname = params["country"]
     @countrydata = @thecountry.find_country=(@countryname)
