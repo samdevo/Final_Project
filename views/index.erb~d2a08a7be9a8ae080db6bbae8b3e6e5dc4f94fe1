@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="index.css">
+    <title>
+      Country Intel
+    </title>
+  </head>
+  <body>
+    <input type = "text" placeholder = "country">
+  </body>
+</html>
