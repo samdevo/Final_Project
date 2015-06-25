@@ -1,12 +1,6 @@
 class Countries
-  def find_country(country)
-    if countries.incude?(country)
-    @country + ":"
-    else 
-    "Your country is invalid sorry:("
-    end 
- end 
-  @country={
+  def initialize
+    @country={
     :China => ["1,370,570,000", "Chinese", "Beijing", "Renminbi (yuan)"],
     :India => ["1,273,140,000", "Hindi and English", "New Delhi", "Indian rupee"],
     :United_States_of_America => ["321,268,000", "English", "Washington D.C.", "United States Dollar"],
@@ -47,7 +41,23 @@ class Countries
 	  :Uganda => ["34,856,813 "],	
 	  :Morocco =>	["33,848,242"],	
  	  :Saudi_Arabia => ["31,521,418"]
-    
-    
     }
-end 
+  end 
+  def find_country=(country)
+    if @country.has_key?(country)
+      @chosencountry = country
+    else 
+    "Your country is invalid sorry:("
+    end 
+  end
+  def answer_settr
+    @answer = @country["@chosencountry"][0]
+  end
+  def answer
+    @answer
+  end
+  def find_country
+    @country[@chosencountry]
+  end
+  end
+
