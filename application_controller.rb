@@ -9,7 +9,7 @@ class MyApp < Sinatra::Base
   post '/data' do
     #binding.pry
     @thecountry = Countries.new
-    @data = params["country"]
+    @chosencountry = params["country"]
     @thecountry.find_country=(params["country"].gsub(" ", "_"))
     erb :results
   end

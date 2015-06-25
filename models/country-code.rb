@@ -1,5 +1,6 @@
 class Countries
   def initialize
+    @fail
     @country={
     :China => ["1,370,570,000", "Chinese", "Beijing", "Renminbi (yuan)"],
     :India => ["1,273,140,000", "Hindi and English", "New Delhi", "Indian rupee"],
@@ -47,17 +48,18 @@ class Countries
     if @country.has_key?(country)
       @chosencountry = country
     else 
-    "Your country is invalid sorry:("
+    @fail = "Your country is invalid sorry:("
     end 
   end
   def answer_settr
-    @answer = @country["@chosencountry"][0]
+    @answer = @country["@chosencountry"]
   end
   def answer
     @answer
   end
   def find_country
-    @country[@chosencountry]
+   @fail
+   @country[@chosencountry]
   end
   end
 
