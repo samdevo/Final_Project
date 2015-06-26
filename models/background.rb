@@ -32,6 +32,6 @@
   :Argentina => "http://www.onlinestores.com/flagdetective/images/download/argentina-hi.jpg",
   :Ukraine => "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/2000px-Flag_of_Ukraine.svg.png",
   :Algeria => "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg",
-  :Poland => "http://www.worldatlas.com/webimage/flags/countrys/zzzflags/pllarge.gif"
-  
+  :Poland => "http://www.worldatlas.com/webimage/flags/countrys/zzzflags/pllarge.gif",
+  :
   }
