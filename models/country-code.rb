@@ -2,6 +2,7 @@ class Countries
 
   def initialize
     @fail = ""
+    @background = ""
     @country={
     "China" => ["1,370,570,000", "Chinese", "Beijing", "Renminbi (yuan)"],
     "India" => ["1,273,140,000", "Hindi and English", "New Delhi", "Indian Rupee"],

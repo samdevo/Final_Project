@@ -1,6 +1,7 @@
 require 'bundler'
 Bundler.require
 require_relative "models/country-code.rb"
+require_relative "models/background.rb"
 
 class MyApp < Sinatra::Base 
   get '/' do
@@ -10,6 +11,7 @@ class MyApp < Sinatra::Base
 #     binding.pry
     @thecountry = Countries.new
     @countryname = params["country"]
+    @background
     @countrydata = @thecountry.find_country=(@countryname)
     erb :results
   end
