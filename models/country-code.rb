@@ -8,9 +8,9 @@ class Countries
     :United_States_of_America => ["321,268,000", "English", "Washington D.C.", "United States Dollar"],
     :Indonesia => ["255,461,700", "Indonesian", "Jakarta", "Rupiah"],
     :Brazil => ["204,503,000", "Portuguese", "Brasília", "Real"],
-    :Pakistan => ["190,156,000", "Urdu", "Islamabad", "Pakistani Rupee"],
-    :Nigeria => ["183,523,000", "English", "Abuja", "Naira"],
-    :Bangledesh => ["158,560,000", "Bengali", "Dhaka", "Taka"],
+    "Pakistan" => ["190,156,000", "Urdu", "Islamabad", "Pakistani Rupee"],
+    "Nigeria" => ["183,523,000", "English", "Abuja", "Naira"],
+    "Bangladesh" => ["158,560,000", "Bengali", "Dhaka", "Taka"],
     :Russia => ["146,267,288", "Russian", "Moscow", "Russian ruble"],
     :Japan => ["126,880,000", "Japanese", "Tokyo", "Yen"],
     :Mexico => ["121,005,815", "Mexican", "Mexico City", "Mexican peso"],
@@ -62,11 +62,15 @@ class Countries
    @fail
    @country[@chosencountry]
   end
+  def answer
+    @answer
+  end
   
 
   def find_country=(country)
+#     binding.pry
     if @country.has_key?(country)
-      @country[country]
+       @answer = @country[country]
     else 
       "Your country is invalid sorry:("
     end 
