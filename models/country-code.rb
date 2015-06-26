@@ -5,7 +5,7 @@ class Countries
     @country={
     "China" => ["1,370,570,000", "Chinese", "Beijing", "Renminbi (yuan)"],
     "India" => ["1,273,140,000", "Hindi and English", "New Delhi", "Indian Rupee"],
-    "United_States_of_America" => ["321,268,000", "English", "Washington D.C.", "United States Dollar"],
+    "United States of America" => ["321,268,000", "English", "Washington D.C.", "United States Dollar"],
     "Indonesia" => ["255,461,700", "Indonesian", "Jakarta", "Rupiah"],
     "Brazil" => ["204,503,000", "Portuguese", "Brasília", "Real"],
     "Pakistan" => ["190,156,000", "Urdu", "Islamabad", "Pakistani Rupee"],
