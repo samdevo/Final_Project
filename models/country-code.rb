@@ -46,7 +46,7 @@ class Countries
     "Saudi Arabia" => ["31,521,418", "Arabic", "Riyadh", "Saudi riyal"],
     "Peru" => ["31,151,643", "Spanish", "Lima", "Nuevo sol"],
     "Uzbekastan" => ["31,022,500", "Uzbek", "Tashkent", "Uzbekistan som"],
-    "Malasia" => ["30,623,500", "Malaysian", "Kuala Lumpur", "Ringgit"],
+    "Malaysia" => ["30,623,500", "Malaysian", "Kuala Lumpur", "Ringgit"],
     "Venezuela" => ["30,620,404", "Spanish", "Carasas", "Bolivar fuerte"],
     "Nepal" => ["28,037,904", "Nepali", "Kathmandu", "Nepalese rupee"],
     "Afganistan" => ["27,101,365", "Pashto and Dari", "Kabul", "Afghani"],
